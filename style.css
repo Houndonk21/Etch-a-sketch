@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.grid-row
+{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-column
+{
+    border: 1px solid gray;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#reset
+{
+    background-color: burlywood; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
